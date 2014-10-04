@@ -13,14 +13,14 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>Skillscourt-how-to-start by intecco-pty-ltd</title>
+    <title>Skillscourt how-to-start by Intecco PTY LTD</title>
   </head>
 
   <body>
     <header>
       <div class="inner">
-        <h1>Skillscourt</h1>
-        <h2>This is how to start guide for SkillsCourt developers</h2>
+        <h1>SkillsCourt</h1>
+        <h2>This is how to start guide <br />for SkillsCourt developers</h2>
         <a href="https://github.com/lukezbikowski/skillscourt-api" class="button"><small>View project on</small> GitHub</a>
       </div>
     </header>
@@ -76,38 +76,64 @@
           <p>Open localhost:3030 in your favourite browser!</p>
 
 
-          <h3>Hosts configuration</h4>
-            To access our api you need to call subdomain api.
-            To make it happen you need to configure your hostname (Windows, MacOS, Linux)
-            or use pow (MacOS), prax (Linux)
+          <h2>Hosts configuration</h2>
+            <p>To access our api you need to call subdomain api.
+            To make it happen you need to add record to your hostname (Windows, MacOS, Linux)
+            or use <code>pow</code> (MacOS) / <code>prax</code> (Linux)</p>
 
-            <h4>Manual</h4>
-            <pre><code>api.skillscourt.dev skillscourt.dev 127.0.0.1</code></pre>
+          <h3>Manual</h3>
+          <p>Add the following line to the hosts file:</p>
+          <pre><code>api.skillscourt.dev skillscourt.dev 127.0.0.1</code></pre>
+
+          <h4>Windows</h4>
+          <p>
+          To edit your host file you must open the file as Administrator <br />
+          for example:
+          <ul>
+            <li><code>'Hold SHIFT+right click on Notepad' -> run as Administrator</code></li>
+            <li>Open <code>%SystemRoot%\system32\drivers\etc\hosts</code></li>
+            <li>Add <code>api.skillscourt.dev skillscourt.dev 127.0.0.1</code> to the file.</li>
+            <li>To test open windows terminal and try:
+            <code>ping api.skillscourt.dev</code></li>
+          </ul>
+          </p>
+
+          <h4>Linux / MacOS / Unix </h4>
+          <p>
+
+
+          <ul>
+            <li>Open <code>/etc/hosts</code> as root. <br />
+                (for Ubuntu you can do <code>sudo vim /etc/hosts</code>)
+            </li>
+            <li>Add <code>api.skillscourt.dev skillscourt.dev 127.0.0.1</code> and save the file.</li>
+            <li>To test open terminal and try:
+            <code>ping api.skillscourt.dev</code></li>
+          </ul>
+          </p>
 
         </section>
 
         <aside id="sidebar">
-          <h1 class="side_header">MacOS</h1>
-          <a href="https://github.com/intecco-pty-ltd/skillscourt-how-to-start/zipball/master" class="button">
+          <a href="https://www.virtualbox.org/wiki/Downloads" class="button" target"_blank">
             <small>Download</small>
-            VirtualBox
+            Virtualbox
           </a>
 
-          <h1 class="side_header">Linux</h1>
-          <a href="https://github.com/intecco-pty-ltd/skillscourt-how-to-start/zipball/master" class="button">
+          <a href="https://www.vagrantup.com/downloads.html" class="button">
             <small>Download</small>
             Vagrant
           </a>
 
-          <h1 class="side_header">Windows</h1>
-          <a href="https://github.com/intecco-pty-ltd/skillscourt-how-to-start/zipball/master" class="button">
+          <a href="http://git-scm.com/downloads" class="button">
             <small>Download</small>
-            VirtualBox
+            GIT
           </a>
+
           <hr />
 
-          <h1 class="side_header">SkillsCourt<br />
-          <note>you don't need it</note></h1>
+          <h1 class="side_header">SkillsCourt</h1>
+          <note>you don't need it</note>
 
           <a href="https://github.com/intecco-pty-ltd/skillscourt-how-to-start/zipball/master" class="button">
             <small>Download</small>

@@ -133,6 +133,14 @@ aside#sidebar p.repo-owner a {
   font-weight: bold;
 }
 
+aside h1.side_header {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #474747;
+}
+
 #downloads {
   margin-bottom: 40px;
 }
