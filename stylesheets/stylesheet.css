@@ -109,6 +109,15 @@ header h2 {
   max-width: 100%;
 }
 
+img.framed {
+  -webkit-transition: -webkit-transform .15s linear;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  border: 5px solid white;
+  float: left;
+  margin-right: 20px;
+}
+
 aside#sidebar {
   width: 200px;
   padding-left: 20px;
