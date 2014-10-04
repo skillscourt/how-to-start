@@ -81,7 +81,7 @@
             To make it happen you need to add record to your hostname (Windows, MacOS, Linux)
             or use <code>pow</code> (MacOS) / <code>prax</code> (Linux)</p>
 
-          <h3>Manual</h3>
+          <h3>Manual setup (hosts file)</h3>
           <p>Add the following line to the hosts file:</p>
           <pre><code>api.skillscourt.dev skillscourt.dev 127.0.0.1</code></pre>
 
@@ -112,6 +112,11 @@
           </ul>
           </p>
 
+          <h2>Pow (MacOSX only)</h2>
+<pre><code>curl get.pow.cx | sh
+echo 3030 > ~/.pow/skillscourt</code></pre>
+          <p>Make sure that your vagrant is up and rails server is up on vagrant box.<br />To verify open <a href="http://api.skillscourt.dev">api.skillscourt.dev </a>
+          </p>
         </section>
 
         <aside id="sidebar">
@@ -131,7 +136,7 @@
           </a>
 
           <hr />
-          <a href="https://github.com/lukezbikowski/skillscourt-api" class="button"><small>View project on</small> GitHub</a>
+          <a href="https://github.com/lukezbikowski/skillscourt-api" class="button"><small>View project on</small>GitHub</a>
 
           <p class="repo-owner"><a href="https://github.com/intecco-pty-ltd/skillscourt"></a>Maintained by <a href="http://www.intecco.com.au">Intecco PTY LTD</a>.</p>
         </aside>
